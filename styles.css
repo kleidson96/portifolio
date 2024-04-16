@@ -236,3 +236,21 @@ footer p{
     transition: 0.5s;
 }
 /*FIM!*/
+
+@media (max-width: 540px){
+
+   
+
+    .caixa-cards{
+        flex-direction: column;
+        gap: 20px;
+       margin-left: -50px;
+    }
+    .caixa-projetos h2{
+        font-size: 42px;
+    }
+    footer p, h5{
+        width: 250px;
+        
+    }
+}
